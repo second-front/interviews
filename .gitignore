@@ -1,0 +1,73 @@
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Go
+/bin/
+/pkg/
+/vendor/
+*.exe
+*.test
+*.prof
+*.out
+
+# Rust
+/target/
+Cargo.lock
+**/*.rs.bk
+
+# Docker
+.docker/
+
+# Kubernetes
+*.kubeconfig
+kubeconfig
+
+# Build artifacts
+dist/
+build/
+*.o
+*.a
+*.so
+
+# Test coverage
+coverage/
+.nyc_output/
+*.lcov
+*.gcov
+*.gcda
+*.gcno
+
+# Logs
+logs/
+*.log
+
+# Local files
+*.local.md
+*.local.*
+.local/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# System Files
+.directory
+Thumbs.db
